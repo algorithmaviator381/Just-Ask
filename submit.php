@@ -5,7 +5,7 @@ $username = "root";
 $password = "";
 $dbname = "sign up";
 
-$conn = mysqli_connect('locolhost', 'root', '', 'sign up');
+$conn = mysqli_connect('locolhost', 'root', '', 'just ask');
 
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
