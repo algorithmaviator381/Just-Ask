@@ -2,12 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    margin-top: 160px;
 }
   
 h1 {
     text-align: center;
-    margin-top: 50px;
 }
   
 .btn {
@@ -29,7 +27,23 @@ h1 {
 
 .navbar{
     position: absolute;
-    
+    background-color: #45a049;
+    height: 100%;
+    width: 20vh;
+    position: absolute;
+    position: fixed;
+    padding: 10px;
 }
-  
-  
+
+.navbar ul li{
+    list-style: none;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 10px;
+    border-left: 10px solid rgba(255, 166, 0, 0);
+}
+
+.navbar ul li:hover{
+    border-left: 10px solid orange;
+    transition: .3s
+}
