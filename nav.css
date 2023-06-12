@@ -1,5 +1,5 @@
 .navbar{
-    position: absolute;
+    position: static;
     background-color: #45a049;
     height: 100%;
     width: 20vh;
@@ -7,6 +7,11 @@
     position: fixed;
     padding: 10px;
     padding-top: 10%;
+}
+
+.navbar ul{
+    padding: 0;
+    margin: 0;
 }
 
 .navbar ul li{

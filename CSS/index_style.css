@@ -8,6 +8,10 @@ h1 {
     text-align: center;
 }
   
+
+.container{
+    display: inline;
+}
 .btn {
     display: block;
     width: 200px;
