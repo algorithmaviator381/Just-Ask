@@ -119,6 +119,14 @@ nav i{
   padding-left: 30px;
   font-size: 21px;
 }
+.main-top i{
+  padding-right: 30px;
+}
+.main-top i:hover{
+  color: aqua;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
 .main-top{
   display: flex;
   align-items: center;
