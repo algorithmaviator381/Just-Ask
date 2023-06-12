@@ -83,8 +83,18 @@ li{
   width: 100%;
   margin: 0;
 }
+
+li a:hover{
+  border-left: solid 10px rgb(103 216 190);
+  transition: 0.3s;
+}
+
 li a{
-    padding: 30px;
+  padding-left: 10px;
+  display: flex;
+  height: 54px;
+  align-items: center;
+  border-left: solid 10px rgba(50, 50, 50, 0);
   font-size: 16px;
   color: rgb(85, 83, 83);
   width: 100%;
@@ -105,7 +115,15 @@ nav i{
 .main{
   width: 100vw;
 }
+.main-top p{
+  padding-left: 30px;
+  font-size: 21px;
+}
 .main-top{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   background: #fff;
   padding: 10px;
