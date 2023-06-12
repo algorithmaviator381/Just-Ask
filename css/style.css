@@ -40,7 +40,7 @@ body{
   margin: 0;
 }
 nav{
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
@@ -134,7 +134,8 @@ nav i{
   justify-content: space-between;
   width: 100%;
   background: #fff;
-  padding: 10px;
+  padding: 20px;
+  padding-left: 350px;
   text-align: center;
   font-size: 18px;
   letter-spacing: 2px;
@@ -148,7 +149,15 @@ nav i{
 h1{
   margin: 20px 10px;
 }
-
+.card_holder{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card_holder div{
+  align-items: center;
+  padding: 11px;
+}
 .search_bar{
   display: flex;
   padding: 10px;
@@ -157,7 +166,12 @@ h1{
 .search_bar input{
   width: 50%;
   padding: 10px;
-  border: 1px solid rgb(190, 190, 190);
+  border-radius: 9px;
+}
+.search_bar select{
+  width: 50%;
+  padding: 10px;
+  border-radius: 9px;
 }
 .search_bar input:focus{
   border: 1px solid blueviolet;
@@ -203,44 +217,31 @@ h1{
   color: blueviolet;
 }
 .card{
-  width: 100%;
+  width: 33vw;
   padding: 15px;
   cursor: pointer;
   display: flex;
+  
+  margin: 24px;
   border-radius: 10px;
   background: #fff;
   margin-bottom: 15px;
   justify-content: space-between;
-  border: 2px solid rgb(190, 190, 190);
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
 }
-.job_details{
+.content_box{
   display: flex;
 }
-.job_details .img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.job_details .img i{
-  width: 70px;
-  font-size: 3rem;
-  margin-left: 1rem;
-  padding: 10px;
-  color: rgb(82, 22, 138);
-  background: rgb(216, 205, 226);
-}
-.job_details .text{
+.content_box .text{
   margin-left: 2.3rem;
 }
-.job_details .text span{
+.content_box .text span{
   color: rgb(116, 112, 112);
 }
-.job_salary{
+.mini_boxy{
   text-align: right;
   color: rgb(54, 54, 54);
 }
 .card:active{
-  border: 2px solid blueviolet;
+  border: 2.5px solid blueviolet;
   transition: 0.4s;
 }
