@@ -16,7 +16,7 @@ body{
   width: 100%;
   margin: 0;
   background: linear-gradient(150deg, rgba(48, 153, 194, 0.666), rgba(17, 215, 142, 0.666));
-  background-size: 300% 300%;
+  background-size: 700% 700%;
   animation: gradientAnim 5s ease infinite;
 }
 
@@ -113,6 +113,7 @@ nav i{
 
 /* Main Section */
 .main{
+  /* display: flex; */
   width: 100vw;
 }
 .main-top p{
@@ -145,6 +146,7 @@ nav i{
 .main-body{
     padding: 10em;
   margin: 15px;
+  margin-left: 15vw;
 }
 h1{
   margin: 20px 10px;
